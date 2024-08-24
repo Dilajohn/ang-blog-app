@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+
 import { Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { SingleCategoryComponent } from './pages/single-category/single-category.component';
@@ -13,8 +13,8 @@ export const routes: Routes = [
   {path:'post' , component: SinglePostComponent},
 
   {path:'about' , component: AboutUsComponent},
-  {path:'terms-conditions ' , component:TermsAndConditionsComponent},
-  {path:'contact' , component:ContactUsComponent}
+  {path:'terms-conditions', component:TermsAndConditionsComponent},
+  {path:'contact', component: ContactUsComponent}
 
 
 ];
